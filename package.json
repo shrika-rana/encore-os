@@ -1,0 +1,34 @@
+{
+  "name": "encore-os",
+  "private": true,
+  "version": "0.2.0",
+  "description": "ENCORE OS — the AI-powered operating system for independent musicians (prototype: AI Song Studio + Band Finder)",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "build:single": "vite build --mode single",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@fontsource-variable/bricolage-grotesque": "^5.3.0",
+    "@fontsource-variable/instrument-sans": "^5.3.0",
+    "cmu-pronouncing-dictionary": "^3.0.0",
+    "lucide-react": "^0.460.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "syllable": "^5.0.1",
+    "zustand": "^4.5.5"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.3",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.10",
+    "vite-plugin-singlefile": "^2.0.3",
+    "vitest": "^2.1.4"
+  }
+}
